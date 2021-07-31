@@ -43,6 +43,8 @@ Step1. Install YOLOX.
 git clone git@github.com:Megvii-BaseDetection/YOLOX.git
 cd YOLOX
 pip3 install -U pip && pip3 install -r requirements.txt
+sudo apt-get install build-essential  # c++
+
 pip3 install -v -e .  # or  python3 setup.py develop
 ```
 Step2. Install [apex](https://github.com/NVIDIA/apex).
